@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0siFrC8AC0GCqjN+39GkpuVOiVv6pS2WeVupW+KAh2aTmgUgdoimAWF3m2/RihTgpiQLNXSzdxm0x1jifvJcxg==",
+  "dgSpecHash": "TPz8zY7b9CQzWcaD3Qq/+ioZOAjvbBWjqxJFjQycg5pyliNdG9XjjZCuWtFIIgc67nTBFR1DpOeRrhq6ddeIyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj",
+  "projectFilePath": "C:\\Users\\klleriston_calriz\\source\\repos\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\klleriston_calriz\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\klleriston_calriz\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -46,6 +46,8 @@
     "C:\\Users\\klleriston_calriz\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\klleriston_calriz\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\klleriston_calriz\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\klleriston_calriz\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
+    "C:\\Users\\klleriston_calriz\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
     "C:\\Users\\klleriston_calriz\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\klleriston_calriz\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\klleriston_calriz\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",

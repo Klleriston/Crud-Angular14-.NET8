@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddDbContext<FullStackDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("FullStackConnectionString")));
+builder.Services.AddDbContext<FullStackDbContext>(option => option.UseNpgsql(builder.Configuration.GetConnectionString("FullStackConnectionString")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
