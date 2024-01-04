@@ -22,5 +22,62 @@ namespace FullStackAPI.Controllers
 
             return Ok(employees);
         }
+        [HttpPost]
+        public async Task<IActionResult> AddEmployee([FromBody]Employee employeeRequest)
+        {
+            employeeRequest.Id = Guid.NewGuid();
+            await _fullStackDbContext.AddAsync(employeeRequest);
+            await _fullStackDbContext.SaveChangesAsync();
+            return Ok(employeeRequest);
+        }
+
+        [HttpGet]
+        [Route("{id:Guild}")]
+        public async Task<IActionResult> GetEmployee([FromRoute]Guild id)
+        {
+           var employee = await _fullStackDbContext.Employees.FirstOrDefaultAsync(x => x.Id == id);
+
+            if(employee == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(employee);
+        }
+        [HttpPut]
+        [Route("{id:Guid}")]
+        public async Task<IActionResult> UpdateEmployee([FromRoute] Guild id, Employee UpdateEmployeeRequest)
+        {
+           var employee = await _fullStackDbContext.Employees.FindAsync(id);
+
+            if (employee == null) 
+            {
+            return NotFound();
+            }
+
+            employee.Name = UpdateEmployeeRequest.Name; 
+            employee.Email = UpdateEmployeeRequest.Email;  
+            employee.Salary = UpdateEmployeeRequest.Salary;
+            employee.Phone = UpdateEmployeeRequest.Phone;
+            employee.Department = UpdateEmployeeRequest.Department;
+
+            _fullStackDbContext.SaveChangesAsync();
+            return Ok(employee);
+        }
+        [HttpDelete]
+        [Route("{id:guild}")]
+        public async Task<IActionResult> DeleteEmployee([FromRoute] Guild id)
+        {
+            var employee = await _fullStackDbContext.Employees.FindAsync(id);
+
+            if (employee == null)
+            {
+                return NotFound();
+            }
+
+            _fullStackDbContext.Employees.Remove(employee);
+            _fullStackDbContext.SaveChangesAsync();
+            return Ok(employee);
+        }
     }
 }

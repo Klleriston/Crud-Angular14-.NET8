@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\bin",
-    "\\obj"
+    "\\Controllers"
   ],
-  "SelectedNode": "\\FullStackAPI_.NET.http",
+  "SelectedNode": "\\Controllers\\EmployeerController.cs",
   "PreviewInSolutionExplorer": false
 }
