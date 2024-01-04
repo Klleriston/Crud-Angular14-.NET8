@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\klleriston_calriz\\source\\repos\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj": {}
+    "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\klleriston_calriz\\source\\repos\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj": {
+    "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\klleriston_calriz\\source\\repos\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj",
+        "projectUniqueName": "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj",
         "projectName": "FullStackAPI",
-        "projectPath": "C:\\Users\\klleriston_calriz\\source\\repos\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj",
+        "projectPath": "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj",
         "packagesPath": "C:\\Users\\klleriston_calriz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\klleriston_calriz\\source\\repos\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI\\FullStackAPI\\obj\\",
+        "outputPath": "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI\\FullStackAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\klleriston_calriz\\AppData\\Roaming\\NuGet\\NuGet.Config",

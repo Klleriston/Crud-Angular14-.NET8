@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TPz8zY7b9CQzWcaD3Qq/+ioZOAjvbBWjqxJFjQycg5pyliNdG9XjjZCuWtFIIgc67nTBFR1DpOeRrhq6ddeIyg==",
+  "dgSpecHash": "upWawkODEvOc3O5bKFbmBbhAvUrjL2WhXT81GZAPVW8RoFPryWE56W5rUw0aNMM/nLS6kPp97yevfFenPysUSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\klleriston_calriz\\source\\repos\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj",
+  "projectFilePath": "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\klleriston_calriz\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\klleriston_calriz\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
