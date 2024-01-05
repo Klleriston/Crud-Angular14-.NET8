@@ -1,29 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj": {}
+    "C:\\Users\\kllea\\OneDrive\\Área de Trabalho\\Crud-Angular14-.NET8\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj": {
+    "C:\\Users\\kllea\\OneDrive\\Área de Trabalho\\Crud-Angular14-.NET8\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj",
+        "projectUniqueName": "C:\\Users\\kllea\\OneDrive\\Área de Trabalho\\Crud-Angular14-.NET8\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj",
         "projectName": "FullStackAPI_.NET",
-        "projectPath": "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj",
-        "packagesPath": "C:\\Users\\klleriston_calriz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI_.NET\\FullStackAPI_.NET\\obj\\",
+        "projectPath": "C:\\Users\\kllea\\OneDrive\\Área de Trabalho\\Crud-Angular14-.NET8\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj",
+        "packagesPath": "C:\\Users\\kllea\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kllea\\OneDrive\\Área de Trabalho\\Crud-Angular14-.NET8\\FullStackAPI_.NET\\FullStackAPI_.NET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\klleriston_calriz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\kllea\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
