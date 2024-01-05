@@ -2,7 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\bin",
-    "\\Controllers"
+    "\\Controllers",
+    "\\Data",
+    "\\Migrations",
+    "\\Models"
   ],
   "SelectedNode": "\\Controllers\\EmployeerController.cs",
   "PreviewInSolutionExplorer": false

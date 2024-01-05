@@ -26,47 +26,48 @@ namespace FullStackAPI.Controllers
         public async Task<IActionResult> AddEmployee([FromBody]Employee employeeRequest)
         {
             employeeRequest.Id = Guid.NewGuid();
-            await _fullStackDbContext.AddAsync(employeeRequest);
+            await _fullStackDbContext.Employees.AddAsync(employeeRequest);
             await _fullStackDbContext.SaveChangesAsync();
             return Ok(employeeRequest);
         }
 
         [HttpGet]
-        [Route("{id:Guild}")]
-        public async Task<IActionResult> GetEmployee([FromRoute]Guild id)
+        [Route("{id:guid}")]
+        public async Task<IActionResult> GetEmployee([FromRoute] Guid id)
         {
-           var employee = await _fullStackDbContext.Employees.FirstOrDefaultAsync(x => x.Id == id);
+            var employee = await _fullStackDbContext.Employees.FirstOrDefaultAsync(x => x.Id == id);
 
-            if(employee == null)
+            if (employee == null)
             {
                 return NotFound();
             }
 
             return Ok(employee);
         }
-        [HttpPut]
-        [Route("{id:Guid}")]
-        public async Task<IActionResult> UpdateEmployee([FromRoute] Guild id, Employee UpdateEmployeeRequest)
-        {
-           var employee = await _fullStackDbContext.Employees.FindAsync(id);
 
-            if (employee == null) 
+        [HttpPut]
+        [Route("{id:guid}")]
+        public async Task<IActionResult> UpdateEmployee([FromRoute] Guid id, Employee UpdateEmployeeRequest)
+        {
+            var employee = await _fullStackDbContext.Employees.FindAsync(id);
+
+            if (employee == null)
             {
-            return NotFound();
+                return NotFound();
             }
 
-            employee.Name = UpdateEmployeeRequest.Name; 
-            employee.Email = UpdateEmployeeRequest.Email;  
+            employee.Name = UpdateEmployeeRequest.Name;
+            employee.Email = UpdateEmployeeRequest.Email;
             employee.Salary = UpdateEmployeeRequest.Salary;
             employee.Phone = UpdateEmployeeRequest.Phone;
             employee.Department = UpdateEmployeeRequest.Department;
 
-            _fullStackDbContext.SaveChangesAsync();
+            await _fullStackDbContext.SaveChangesAsync();
             return Ok(employee);
         }
         [HttpDelete]
-        [Route("{id:guild}")]
-        public async Task<IActionResult> DeleteEmployee([FromRoute] Guild id)
+        [Route("{id:guid}")]
+        public async Task<IActionResult> DeleteEmployee([FromRoute] Guid id)
         {
             var employee = await _fullStackDbContext.Employees.FindAsync(id);
 
@@ -76,7 +77,7 @@ namespace FullStackAPI.Controllers
             }
 
             _fullStackDbContext.Employees.Remove(employee);
-            _fullStackDbContext.SaveChangesAsync();
+            await _fullStackDbContext.SaveChangesAsync();
             return Ok(employee);
         }
     }

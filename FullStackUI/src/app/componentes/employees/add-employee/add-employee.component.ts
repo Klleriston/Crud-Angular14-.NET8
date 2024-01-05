@@ -11,12 +11,12 @@ import { EmployeesService } from 'src/app/services/employees.service';
 export class AddEmployeeComponent implements OnInit {
 
   addEmployeeRequest: Employee = {
-    Id: '',
-    Name: '',
-    Email: '',
-    Phone: 0,
-    Salary: 0,
-    Department: ''
+    id: '',
+    name: '',
+    email: '',
+    phone: 0,
+    salary: 0,
+    department: ''
   };
 
   constructor(private employeeService: EmployeesService, private router: Router) { }

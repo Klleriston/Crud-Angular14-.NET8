@@ -14,13 +14,13 @@
         </thead>
         <tbody>
             <tr *ngFor="let employee of employees">
-                <td>{{employee.Id}}</td>
-                <td>{{employee.Name}}</td>
-                <td>{{employee.Email}}</td>
-                <td>{{employee.Phone}}</td>
-                <td>{{employee.Salary}}</td>
-                <td>{{employee.Department}}</td>
-                <td><a [routerLink]="['/employees', 'edit', employee.Id]">View</a></td>
+                <td>{{employee.id}}</td>
+                <td>{{employee.name}}</td>
+                <td>{{employee.email}}</td>
+                <td>{{employee.phone}}</td>
+                <td>{{employee.salary}}</td>
+                <td>{{employee.department}}</td>
+                <td><a [routerLink]="['/employees', 'edit', employee.id]">View</a></td>
             </tr>
         </tbody>
     </table>

@@ -11,12 +11,12 @@ import { EmployeesService } from 'src/app/services/employees.service';
 export class EditEmployeeComponent implements OnInit {
 
   employeeDetails: Employee = {
-    Id: '',
-    Name: '',
-    Email: '',
-    Phone: 0,
-    Salary: 0,
-    Department: ''
+    id: '',
+    name: '',
+    email: '',
+    phone: 0,
+    salary: 0,
+    department: ''
   }
 
   constructor(private route: ActivatedRoute, private employeeService: EmployeesService,  private router: Router) { }
@@ -38,7 +38,7 @@ export class EditEmployeeComponent implements OnInit {
   }
 
   updateEmployee() {
-    this.employeeService.updateEmployee(this.employeeDetails.Id, this.employeeDetails).subscribe({
+    this.employeeService.updateEmployee(this.employeeDetails.id, this.employeeDetails).subscribe({
       next: (response) => {
         this.router.navigate(['employees']);
       }

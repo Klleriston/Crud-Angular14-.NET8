@@ -6,31 +6,31 @@
                 <form #form="ngForm" (ngSubmit)="updateEmployee()">
                     <div class="mb-3">
                         <label for="id" class="form-label">Id</label>
-                        <input type="text" class="form-control" id="id" name="id" readonly [(ngModel)]="employeeDetails.Name">
+                        <input type="text" class="form-control" id="id" name="id" readonly [(ngModel)]="employeeDetails.id">
                     </div>
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" name="name" [(ngModel)]="employeeDetails.Name">
+                        <input type="text" class="form-control" id="name" name="name" [(ngModel)]="employeeDetails.name">
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
-                        <input type="text" class="form-control" id="email" name="email" [(ngModel)]="employeeDetails.Email">
+                        <input type="text" class="form-control" id="email" name="email" [(ngModel)]="employeeDetails.email">
                     </div>
                     <div class="mb-3">
                         <label for="phone" class="form-label">Phone</label>
-                        <input type="number" class="form-control" id="phone" name="phone" [(ngModel)]="employeeDetails.Phone">
+                        <input type="number" class="form-control" id="phone" name="phone" [(ngModel)]="employeeDetails.phone">
                     </div>
                     <div class="mb-3">
                         <label for="salary" class="form-label">Salary</label>
-                        <input type="number" class="form-control" id="salary" name="salary" [(ngModel)]="employeeDetails.Salary">
+                        <input type="number" class="form-control" id="salary" name="salary" [(ngModel)]="employeeDetails.salary">
                     </div>
                     <div class="mb-3">
                         <label for="department" class="form-label">Department</label>
-                        <input type="text" class="form-control" id="department" name="department" [(ngModel)]="employeeDetails  .Department
+                        <input type="text" class="form-control" id="department" name="department" [(ngModel)]="employeeDetails.department
                         ">
                     </div>
                     <button type="submit" class="btn btn-primary mr-5">Save</button>
-                    <button type="button" class="btn btn-danger" (click)="deleteEmployee(employeeDetails.Id)">Delete</button>
+                    <button type="button" class="btn btn-danger" (click)="deleteEmployee(employeeDetails.id)">Delete</button>
                 </form>
             </div>
         </div>

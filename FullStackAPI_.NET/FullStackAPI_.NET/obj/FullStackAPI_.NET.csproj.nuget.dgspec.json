@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj": {}
+    "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj": {
+    "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj",
+        "projectUniqueName": "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj",
         "projectName": "FullStackAPI_.NET",
-        "projectPath": "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj",
+        "projectPath": "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI_.NET\\FullStackAPI_.NET\\FullStackAPI_.NET.csproj",
         "packagesPath": "C:\\Users\\klleriston_calriz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI\\FullStackAPI_.NET\\FullStackAPI_.NET\\obj\\",
+        "outputPath": "C:\\Users\\klleriston_calriz\\Desktop\\Crud-Angular14-.NET8\\FullStackAPI_.NET\\FullStackAPI_.NET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\klleriston_calriz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
